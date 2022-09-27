@@ -33,6 +33,36 @@ function foo2 (p1, p2) {
 
 console.log("Enmanuel", "Perez")
 
+function sayHello() {
+    console.log("Hello")
+}
+sayHello();
+
+function ourLLastname() {
+    console.log("Perez")
+}
+ourLLastname();
+
+// functions can also help clean up the logic of your code
+function average(num1, num2) {
+    let sum = num1 + num2;
+    let avg = sum / 2 ;
+    return avg;
+}
+
+function average2(num1, num2) {
+    let sum = sumNums( num1, num2);
+    let avg = sum / 2;
+    return avg;
+}
+
+function sumNums (num1, num2){
+    return num1 +num2;
+}
+console.log(average(5,3))
+console.log(average2(51,8))
+
+
 
 
 
