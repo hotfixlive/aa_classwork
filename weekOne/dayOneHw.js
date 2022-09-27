@@ -93,7 +93,7 @@ if (num % 3 === 0) {
 }
 
 // 8
-var num = 78; // try different numbers here
+var num = 78; // 
 
 if (num % 5 === 0) {
   console.log('divisible by 5');
