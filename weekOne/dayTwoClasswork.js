@@ -104,10 +104,10 @@ console.log(plusFive(10))
 console.log(plusFive(2))
 console.log(plusFive(-8))
 
-// Write a function `threeOrSeven` that takes in a number and returns `true`
+/*Write a function `threeOrSeven` that takes in a number and returns `true`
 // if the number is divisible by either 3 or 7 and `false` otherwise.
 // Write two versions of this function, using conditionals and without using conditionals
-//
+*/
 //
 // Examples:
 // threeOrSeven(3);   // => true
@@ -147,9 +147,79 @@ console.log(threeOrSeven2(8))
 // hello("child");    // prints "Hello, child"
 // hello("Anthony");  // prints "Hello, Anthony"
 //
+
 function hello(str) {
-    // your code here...
+    console.log(str);
+}
+
+hello("child");
+
+// Write a function `yell` that takes in a string and returns a "yelled" version
+// of that string.
+//
+// Examples:
+// yell("I want to go to the store"); // => "I WANT TO GO TO THE STORE!!!"
+// yell("Time to program"); // => "TIME TO PROGRAM!!!"
+//
+
+
+function yell(string) {
+  console.log("I want to go to the store".toUpperCase());
+  console.log("Time to program".toUpperCase());
+}
+
+yell();
+
+// Write a function `whisper` that takes in a string and returns a "whispered" version
+// of that string.
+//
+// Examples:
+// whisper("Hey Anthony"); // => "...hey anthony..."
+// whisper("YEA! that was fun"); // => "...yea! that was fun..."
+function whisper(string) {
+    console.log("Hey Anthony".toLowerCase());
+    console.log("YEA! tht was fun".toLowerCase());
   }
+
+whisper();
+
+// Write a function `isSubstring` that takes in two strings, `searchString` and
+// `subString`. The function should return `true` if `subString` is a part of the
+// `searchString`, `false` otherwise.
+// Write two versions of this function, using conditionals and without using conditionals
+//
+// Examples:
+// isSubstring("The cat went to the store", "he cat went"); // => true
+// isSubstring("Time to program", "time"); // => true
+// isSubstring("Jump for joy", "joys"); // => false
+// indexOf
+function isSubstring(searchString, subString) {  // with the conditional
+    if (searchString.indexOf(subString) > -1);
+    return true;
+} else {
+    return false;
+}
+
+isSubstring();
+
+
+
+
+
+
+// Write a function `echo` that takes in a string and returns that string "echo-ized".
+//
+// Examples:
+// echo("Mom!"); // => "MOM! ... Mom! ... mom!"
+// echo("hey"); // => "HEY ... hey ... hey"
+// echo("JUMp"); // => "JUMP ... JUMp ... jump"
+/*
+function echo(string) {
+   return
+  }
+
+echo("Mom!");
+*/
 
 
 
