@@ -32,3 +32,15 @@ function printRange(start,end){
 
 printRange(3,10)
 
+
+// while loop
+
+function printRange1(start,end) {
+    let i = start;
+    while (i <= end) {
+        console.log(i)
+        i++
+    }
+}
+
+printRange1(7,1000000)
